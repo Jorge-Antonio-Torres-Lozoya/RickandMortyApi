@@ -1,0 +1,57 @@
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+#title{
+    margin-left: 1.3em;
+}
+footer{
+    margin: 1.5em;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btnImage{
+    background-color: white;
+    border: 0ch;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-tags{
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+.tags{
+    
+    text-decoration: none;
+    color: black;
+}
+#mainH1{
+    
+    display: flex;
+    justify-content: center;
+    margin: .5em 0 .9em 0;
+}
+@media only screen and (max-width: 350px) {
+    .text-secondary{
+        width: 200px;
+        height: 200px;
+    }
+    .tags{
+        font-size: 11px;
+    }
+    
+    
+}
